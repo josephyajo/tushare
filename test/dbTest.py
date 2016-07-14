@@ -1,11 +1,15 @@
-import configparser
-import os
-import sys
+import configparser,os
 
-projectName = "CJZK.CMS.Data"
+projectName = "Sheep.Tushare"
 thePath = os.getcwd()
-thePath = thePath[:thePath.find(projectName)+len(projectName)]
 print(thePath)
+thePath = thePath[:thePath.find(projectName)+len(projectName)]
+ 
+cf = configparser.ConfigParser() 
+print(thePath+"/system.conf")
+# cf.read(thePath+"system.conf")
+# s = cf.sections()
+# print ('section:', s) 
 
 # def cur_file_dir():
 #     path=sys[0]

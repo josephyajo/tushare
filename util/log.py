@@ -6,10 +6,10 @@ class Log:
     logger = None
      
     def __init__(self):
-        projectName = "CJZK.CMS.Data"
+        projectName = "Sheep.Tushare"
         thePath = os.getcwd()
         thePath = thePath[:thePath.find(projectName) + len(projectName)]
-        logging.config.fileConfig(thePath+"/config/logger.conf")
+        logging.config.fileConfig(thePath+"\config\logging.conf")
         self.logger = logging.getLogger("logger01")  
      
     def debug(self, msg):
@@ -31,4 +31,4 @@ class Log:
         self.logger.critical(msg)
  
  
-Log().logger.info("abc")
+Log().logger.info("configuration")

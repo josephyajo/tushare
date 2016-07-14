@@ -6,8 +6,7 @@ import win32service
 import win32event
 import time
 import datetime
-import logging
-import logging.config
+from util import log
 
 class QuotationService(win32serviceutil.ServiceFramework):
     _svc_name_ = "QuotationService"
