@@ -1,7 +1,9 @@
 eclipse.preferences.version=1
 encoding//config/__init__.py=utf-8
 encoding//data_access/__init__.py=utf-8
+encoding//data_access/mssql.py=utf-8
 encoding//log/__init__.py=utf-8
 encoding//util/__init__.py=utf-8
 encoding//util/log.py=utf-8
-encoding/QuotationService.py=utf-8
+encoding/configuration.py=utf-8
+encoding/quotation_service.py=utf-8
