@@ -1,0 +1,6 @@
+[2016-06-22 01:03:28,860](DEBUG)example : debug message
+[2016-06-22 01:03:28,861](INFO)example : info message
+[2016-06-22 01:03:28,861](WARNING)example : warn message
+[2016-06-22 01:03:28,862](ERROR)example : error message
+[2016-06-22 01:03:28,862](CRITICAL)example : critical message
+[2016-06-22 01:03:28,862](INFO)hello : Hello world!
