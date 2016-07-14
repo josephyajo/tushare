@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-import configuration as Config
+import configuration as config
 
-print(Config.project_dir)
+print(config.root_dir)
 

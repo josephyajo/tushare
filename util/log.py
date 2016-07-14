@@ -3,16 +3,14 @@
 
 import os
 import logging.config
+import configuration as config
 
 class Log:
     logger = None
      
     def __init__(self):
-        projectName = "Sheep.Tushare"
-        thePath = os.getcwd()
-        thePath = thePath[:thePath.find(projectName) + len(projectName)]
-        logging.config.fileConfig(thePath+"\config\logging.conf")
-        self.logger = logging.getLogger("logger01")  
+        logging.config.fileConfig(config.logging_conf_dir)
+        self.logger = logging.getLogger("logger01")
      
     def debug(self, msg):
         self.logger.debug(msg)
