@@ -1,5 +1,3 @@
-import configparser,os,sys
+import Configuration as Config
 
-
-
-    
+print(Config.project_dir)

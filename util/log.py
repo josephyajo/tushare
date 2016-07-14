@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-import logging, logging.config, os
+import logging.config, os
 
 class Log:
     logger = None
