@@ -4,3 +4,9 @@
 [2016-06-22 01:03:28,862](ERROR)example : error message
 [2016-06-22 01:03:28,862](CRITICAL)example : critical message
 [2016-06-22 01:03:28,862](INFO)hello : Hello world!
+[2018-06-11 12:02:15,000](DEBUG)example : debug message
+[2018-06-11 12:02:15,000](INFO)example : info message
+[2018-06-11 12:02:15,002](WARNING)example : warn message
+[2018-06-11 12:02:15,002](ERROR)example : error message
+[2018-06-11 12:02:15,002](CRITICAL)example : critical message
+[2018-06-11 12:02:15,003](INFO)hello : Hello world!
