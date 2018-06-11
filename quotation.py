@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-import win32serviceutil
-import win32service
-import win32event
-import time
 import datetime
-import logging
-import logging.config
+import time
+import win32event
+import win32service
+
+import win32serviceutil
+
 
 class QuotationService(win32serviceutil.ServiceFramework):
     _svc_name_ = "QuotationService"
